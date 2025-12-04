@@ -1,0 +1,14 @@
+python-dotenv
+numpy
+pandas
+scikit-learn 
+shap 
+matplotlib
+langchain 
+langgraph
+openai
+pydantic
+langchain_openai
+langsmith
+langgraph-checkpoint-sqlite 
+aiosqlite

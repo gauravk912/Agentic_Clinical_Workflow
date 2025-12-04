@@ -1,0 +1,7 @@
+.env
+.python-version
+steps.txt
+.venv
+notebooks
+.vscode
+.DS_Store
