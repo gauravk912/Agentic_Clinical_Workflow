@@ -1,9 +1,6 @@
-# main.py
-
 import os
 from uuid import uuid4
 from dotenv import load_dotenv
-
 from core.graph import build_app
 from core.state import PipelineState
 
@@ -19,7 +16,7 @@ def main():
     # Initial state with run_id
     state = PipelineState(run_id=run_id)
 
-    # --- NEW: config with thread_id for checkpointing ---
+    # --- config with thread_id for checkpointing ---
     config = {"configurable": {"thread_id": run_id}}
 
     # Invoke the graph with config so checkpoints are tied to this run
